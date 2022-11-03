@@ -1,0 +1,5 @@
+computeSourcePath=true
+contextsDir=/home/linuxlitedarwin2/Desktop/appproyectos/qweb5/tomcat8/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=/home/linuxlitedarwin2/Desktop/appproyectos/qweb5/tomcat8/conf/server.xml
+tomcatDir=/home/linuxlitedarwin2/Desktop/appproyectos/qweb5/tomcat8

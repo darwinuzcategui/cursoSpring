@@ -1,0 +1,27 @@
+package com.darwinuzcategui.IoC;
+
+public class DirectorEmpleado implements Empleados {
+	
+	//Creación de campo tipo Creación Informe(interfaz)
+	
+	private CreacionInformes informeNuevo;
+	
+	//Creación de contructor que inyecta la dependencia
+	public DirectorEmpleado(CreacionInformes informeNuevo) {
+		this.informeNuevo=informeNuevo;
+	}
+	
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Gestionar la Dirrecion de los emplados"+informeNuevo.getInforme();
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return "Informes a los Directortes de los dpto";
+	}
+
+}

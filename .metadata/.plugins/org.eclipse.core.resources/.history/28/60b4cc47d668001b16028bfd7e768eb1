@@ -1,0 +1,20 @@
+package com.darwinuzcategui.pruebaAnnptations;
+
+import org.springframework.stereotype.Component;
+
+@Component("ComercialExperimentadoAnotacion")
+public class ComercialExperimentado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Vender , Bender y Más Ventas";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return "Informe Generado por Comercial";
+	}
+
+}

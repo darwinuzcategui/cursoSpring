@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>confirmacion de Registro de Alumno</title>
+</head>
+<body>
+
+El Alumno con nombre ${elAlumno.nombre} y apellido ${elAlumno.apellido} se haregistrado con éxito
+<br/>
+La Materia escogida es: ${elAlumno.optativa}
+
+</body>
+</html>

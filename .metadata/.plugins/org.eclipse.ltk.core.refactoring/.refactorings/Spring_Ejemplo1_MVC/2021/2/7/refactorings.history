@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.darwinuzcategui.spring.mvc.Alumino&apos; to &apos;Alumno&apos;&#x0A;- Original project: &apos;Spring_Ejemplo1_MVC&apos;&#x0A;- Original element: &apos;com.darwinuzcategui.spring.mvc.Alumino&apos;&#x0A;- Renamed element: &apos;com.darwinuzcategui.spring.mvc.Alumno&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Alumino&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.darwinuzcategui.spring.mvc{Alumino.java[Alumino" matchStrategy="1" name="Alumno" qualified="false" references="true" similarDeclarations="false" stamp="1612744462167" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,31 @@
+package com.darwinuzcategui.pruebaAnnptations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+// @Component("ComercialExperimentadoAnotacion")
+//si no coloca id el toma el nombre de la clase como id
+@Component
+public class ComercialExperimentado implements Empleados {
+	
+	@Autowired
+	public ComercialExperimentado(CreacionInformeFinanciero nuevoInforme) {
+		this.nuevoInforme = nuevoInforme;
+	}
+
+	private CreacionInformeFinanciero nuevoInforme;
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Vender , Bender y Más Ventas";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		//return "Informe Generado por Comercial";
+		return nuevoInforme.getInformeFinanciero();
+	}
+
+}

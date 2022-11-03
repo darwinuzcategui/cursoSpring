@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/home/linuxlitedarwin2/Desktop/spring_curso/cursoSpring/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1155756630.index
+/Spring_Ejemplo1_MVC/src

@@ -1,0 +1,11 @@
+package com.darwinuzcategui.IoC;
+
+public class secretarioEmpleado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Gestionar la Angenda de los empleado";
+	}
+
+}

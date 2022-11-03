@@ -1,0 +1,11 @@
+package com.darwinuzcategui.spring.mvc;
+
+public class Alumno {
+	
+	private String nombre;
+	
+	private String apellido;
+	
+	
+
+}

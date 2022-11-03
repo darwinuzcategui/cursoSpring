@@ -1,0 +1,19 @@
+package com.darwinuzcategui.IoC;
+
+public class usoEmpleados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// creacion de objetos tipo empleaod
+		
+		jefeEmpleado Empleado1 = new jefeEmpleado();
+		
+		
+		// uso de obejeto creado
+		
+		System.out.println(Empleado1.getTareas());
+
+	}
+
+}

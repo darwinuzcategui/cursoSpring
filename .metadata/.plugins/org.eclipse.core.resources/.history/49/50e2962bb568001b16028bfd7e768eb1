@@ -1,0 +1,9 @@
+package com.darwinuzcategui.IoC;
+
+public class JefeEmpleado implements Empleados {
+	
+	public String getTareas() {
+		
+		return "Gestionar las Actividades realativa a los empleados de mi dpto";
+	}
+}

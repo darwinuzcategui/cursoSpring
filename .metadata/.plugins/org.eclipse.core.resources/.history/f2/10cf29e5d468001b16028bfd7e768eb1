@@ -1,0 +1,20 @@
+package com.darwinuzcategui.pruebaAnnptations;
+
+public class UsoAnnotatios {
+
+	public static void main(String[] args) {
+		
+		// leer el xmls de configuracion
+		ClassPathXmlApplicationContext contexto =new ClassPathXmlApplicationContext("aplicationContext.xml");
+		
+		// pedir un bean al contenedor
+		
+		// usar el bean
+		
+		// cerrar el contexto
+		
+		
+
+	}
+
+}

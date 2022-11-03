@@ -1,0 +1,25 @@
+package com.darwinuzcategui.pruebaAnnptations;
+
+public class DirectoFinanciero implements Empleados {
+	
+	
+
+	public DirectoFinanciero(CreacionInformeFinanciero informeFinanciero) {
+		this.informeFinanciero = informeFinanciero;
+	}
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Gestión de la Operaciones finaciera";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return informeFinanciero.getInformeFinanciero();
+	}
+	
+	private CreacionInformeFinanciero  informeFinanciero;
+
+}

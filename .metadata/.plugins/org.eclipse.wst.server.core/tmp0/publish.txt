@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Feb 08 21:15:59 VET 2021
+org.eclipse.jst.jee.server\:/binary\:/home/linuxlitedarwin2/Desktop/spring_curso/cursoSpring/Spring_Ejemplo1_MVC/WebContent/WEB-INF/lib/spring-web-5.3.3.jar=WEB-INF/lib/spring-web-5.3.3.jar
+org.eclipse.jst.jee.server\:/binary\:/home/linuxlitedarwin2/Desktop/spring_curso/cursoSpring/Spring_Ejemplo1_MVC/WebContent/WEB-INF/lib/spring-web-5.3.3-sources.jar=WEB-INF/lib/spring-web-5.3.3-sources.jar
