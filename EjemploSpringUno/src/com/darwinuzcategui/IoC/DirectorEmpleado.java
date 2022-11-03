@@ -15,20 +15,20 @@ public class DirectorEmpleado implements Empleados {
 	@Override
 	public String getTareas() {
 		// TODO Auto-generated method stub
-		return "Gestionar la Direcion de los empleados";
+		return "Gestionar la Direcion de los empleados**";
 	}
 
 	@Override
 	public String getInforme() {
 		// TODO Auto-generated method stub
-		return "Informes a los Directortes de los dpto..:"+informeNuevo.getInforme();
+		return "Informes a los Directortes de los dpto..**:"+informeNuevo.getInforme();
 	}
 	
 	// metodo init. Ejecutar tarea antes de que bean este deponible
 	
 	public void metodoInicial() {
 		
-		System.out.println("dentro de metodo  Inicio, ante que bean este diponible");
+		System.out.println("dentro de metodo  Inicio, ante que bean este diponible**");
 		
 	}
 	
