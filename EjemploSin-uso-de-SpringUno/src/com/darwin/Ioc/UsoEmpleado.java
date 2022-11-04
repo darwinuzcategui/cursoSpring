@@ -15,11 +15,11 @@ public class UsoEmpleado {
 		
 		
 		// TODO Uso de los obejtos creados
-		System.out.println("*****************************");
+		System.out.println("111*****************************");
 		System.out.println(Empleado1.getTareas());
 		System.out.println(Empleado2.getTareas());
 		System.out.println(Empleado3.getTareas());
-		System.out.println("***************************");
+		System.out.println("22***************************");
 
 	}
 
